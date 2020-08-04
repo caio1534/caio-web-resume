@@ -1,0 +1,129 @@
+{
+  "main": {
+    "name": "Caio Cristo",
+    "occupation": "Frontend Developer",
+    "description": "Pronto para ajuda-lo no seu próximo projeto! Veja mais sobre mim em baixo",
+    "image": "profilepic.jpg",
+    "bio": "O meu nome é Caio Cristo e sou um jovem estudante em Aveiro, além de um amante de desporto, geografia e factos interessantes (que apenas eu acho interessantes 😅).",
+    "bio2": "Como futuro desenvolvedor de frontends, o meu interesse centra-se na web e em criar novas soluções para este meio de comunicação que, não só faz parte da nossa vida quotidiana, como é a nossa vida, em muitos casos. Como tal, pretendo lançar uma carreira como Desenvolvedor de Frontend (nunca pensei que fosse dar para isto 😎), sempre com o objetivo de aprender mais e melhorar o meu “craft”.",
+    "contactmessage": "Qualquer dúvida ou outro assunto não hesite em contactar!",
+    "email": "caio@caio.com",
+    "phone": "910 000 000",
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "http://facebook.com/cvc34",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/cvc34",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/tbakerx",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Soft skills incluem capacidade de trabalhar em grupo, decision making, flexibilidade/capacidade de ouvir, criatividade, otimismo, paciência e muito mais!",
+    "education": [
+      {
+        "school": "Universidade de Aveiro",
+        "degree": "Novas Tecnologias da Comunicação",
+        "graduated": "Soon",
+        "description": "O curso que frequento deu-me a oportunidade de explorar diversas áreas como programação, web design, fotografia, vídeo, comunicação... e mais umas quantas coisas. Aqui aprendi também o valor de trabalhar em grupo e de ter uma mente aberta a novas soluções para novos problemas."
+      },
+      {
+        "school": "Escola Secundária da Mealhada",
+        "degree": "Curso Profissional Técnico de Multimédia",
+        "graduated": "Julho 2017",
+        "description": "Talvez sem me dar totalmente conta inicialmente, foi aqui que o meu interesse pela área da multimédia foi realmente despertado, o que se tornou um verdadeiro gosto mais à frente. Mais importante que as competências técnicas aprendidas, foi esta ideia que o meu futuro poderia estar algures à frente de um monitor de computador no futuro."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "65%"
+      },
+      {
+        "name": "Firebase",
+        "level": "60%"
+      },
+      {
+        "name": "HTML5",
+        "level": "90%"
+      },
+      {
+        "name": "CSS",
+        "level": "70%"
+      },
+      {
+        "name": "Bootstrap",
+        "level": "78%"
+      },
+      {
+        "name": "Photoshop",
+        "level": "65%"
+      },
+      {
+        "name": "Illustrator",
+        "level": "73%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "A Voz das Cartas",
+        "category": "Jogo de aventura",
+        "image": "lab3.png",
+        "url": "lab3.png"
+      },
+      {
+        "title": "ConventRoutine",
+        "category": "Jogo desenvolvido em parceria com o Museu de Aveiro / Santa Joana",
+        "image": "lab4.png",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Premier League - Fans",
+        "category": "Website informativo acerca da liga de futebol inglesa",
+        "image": "lab5.png",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Adventour",
+        "category": "Narrativa interativa de viagem para o público universitário sénior",
+        "image": "projf.png",
+        "url": "http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Trabalhar com o Caio é muito bom, pode não parecer à primeira vista, mas ele sabe distinguir quando é para trabalhar a sério e quando se pode brincar. É uma pessoa que está sempre pronta a ajudar e sabe como guiar e organizar um trabalho.",
+        "user": "Daniela Pereira, NTC 2017/20"
+      },
+      {
+        "text": "Ao londo da licenciatura tive a oportunidade de realizar vários projetos onde o Caio participou e sem dúvida posso dizer que há dedicação, trabalho e vontade de querer sempre melhorar aquilo que está a fazer, mesmo que o tempo já seja muito, não sendo afetado pela pressão - prefere esforçar-se para ter um bom resultado, refazendo as vezes que forem precisas, do que entregar algo que poderia estar melhor. Acima de tudo, tem uma mente aberta, ouvindo e refletindo sobre as opiniões que estão a ser dadas, trabalhando como um todo. Foco, Determinação e Coragem são as palavras que melhor definem o Caio.",
+        "user": "Bruno Miguel, NTC 2017/20"
+      }
+    ]
+  }
+}
