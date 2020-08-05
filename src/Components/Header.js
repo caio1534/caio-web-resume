@@ -19,7 +19,7 @@ class Header extends Component {
                <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
                <ul id="nav" className="nav">
-                  <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+                  <li className="current"><a className="smoothscroll" href="#home">Início</a></li>
                   <li><a className="smoothscroll" href="#about">Sobre</a></li>
                   <li><a className="smoothscroll" href="#resume">Currículo</a></li>
                   <li><a className="smoothscroll" href="#portfolio">Portfólio</a></li>
@@ -30,23 +30,9 @@ class Header extends Component {
             </nav>
 
             <div className="row banner">
-               <div className="col left">
-                  <img width="90" height="150" src={`${require(`../leftC.png`)}`}></img>
-               </div>
-               <div className="col middle banner-text">
-                  <h1 class="wordCarousel">
-                     <div>
-                        <ul class="flip3">
-                           <li className="responsive-headline">{name}.</li>
-                           <li className="responsive-headline">o meu nome é</li>
-                           <li className="responsive-headline">Olá</li>
-                        </ul>
-                     </div>
-                  </h1>
+               <div className="middle banner-text">
+                  <h1>{name}.</h1>
                   <h3>Um <span>{occupation}</span> da <span>Mealhada, Aveiro</span>. {description}.</h3>
-               </div>
-               <div className="col right">
-                  <img width="90" height="150" src={`${require(`../rightC.png`)}`}></img>
                </div>
             </div>
 

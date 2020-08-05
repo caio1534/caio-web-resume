@@ -69,7 +69,7 @@ header .banner-text h3 {
    color: rgb(201, 201, 201);
    margin: 0 auto;
    padding-top: 10px;
-   width: 88%;
+   width: 95%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
@@ -118,67 +118,6 @@ header .scrolldown a {
    transition: all .3s ease-in-out;
 }
 header .scrolldown a:hover { color: #11ABB0; }
-
-.wordCarousel {
-   font-size: 36px;
-   font-weight: 100;
-}
-
-.wordCarousel div {
-       overflow: hidden;
-       position: relative;
-       height: 110px;
-       padding-top: 10px;
-       margin-top: -10px;
-}
-
-.wordCarousel li {
-   font-weight: 700;
-   padding: 0;
-   height: 60px;
-   margin-bottom: 55px;
-   display: block;
-}
-   
-
-.flip2 { animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
-.flip3 { animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
-.flip4 { animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
-
-@keyframes flip2 {
-   0% { margin-top: -180px; }
-   5% { margin-top: -90px;  }
-   50% { margin-top: -90px; }
-   55% { margin-top: 0px; }
-   99.99% { margin-top: 0px; }
-   100% { margin-top: -270px; }
-}
-
-@keyframes flip3 {
-   0% { margin-top: -260px; }
-   5% { margin-top: -190px; }
-   33% { margin-top: -190px; }
-   38% { margin-top: -80px; }
-   66% { margin-top: -80px; }
-   71% { margin-top: 40px; }
-   99.99% { margin-top: 40px; }
-   100% { margin-top: -260px; }
-}
-
-@keyframes flip4 {
-   0% { margin-top: -360px; }
-   5% { margin-top: -270px; }
-   25% { margin-top: -270px; }
-   30% { margin-top: -180px; }
-   50% { margin-top: -180px; }
-   55% { margin-top: -90px; }
-   75% { margin-top: -90px; }
-   80% { margin-top: 0px; }
-   99.99% { margin-top: 0px; }
-   100% { margin-top: -270px; }
-}
-
-
 
 .col {
    float: left;

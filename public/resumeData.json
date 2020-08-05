@@ -4,11 +4,11 @@
     "occupation": "Frontend Developer",
     "description": "Pronto para ajuda-lo no seu próximo projeto! Veja mais sobre mim em baixo",
     "image": "profilepic.jpg",
-    "bio": "O meu nome é Caio Cristo e sou um jovem estudante em Aveiro, além de um amante de desporto, geografia e factos interessantes (que apenas eu acho interessantes 😅).",
-    "bio2": "Como futuro desenvolvedor de frontends, o meu interesse centra-se na web e em criar novas soluções para este meio de comunicação que, não só faz parte da nossa vida quotidiana, como é a nossa vida, em muitos casos. Como tal, pretendo lançar uma carreira como Desenvolvedor de Frontend (nunca pensei que fosse dar para isto 😎), sempre com o objetivo de aprender mais e melhorar o meu “craft”.",
+    "bio": "O meu nome é Caio Cristo e sou um jovem proveniente da terra do leitão (Mealhada!!), recém licenciado pela Universidade de Aveiro, além de um amante de desporto, geografia e factos interessantes (que apenas eu acho interessantes 😅).",
+    "bio2": "Desde o secundário que o meu interesse se centra na web e na criação de novas soluções e conteúdos para este meio de comunicação que, não só faz parte da nossa vida quotidiana, como (quase que) é a nossa vida, em muitos casos. Como tal, pretendo lançar uma carreira como Desenvolvedor de Frontend (nunca pensei que fosse dar para isto 😎), sempre com o objetivo de aprender mais e melhorar o meu “craft”.",
     "contactmessage": "Qualquer dúvida ou outro assunto não hesite em contactar!",
-    "email": "caio@caio.com",
-    "phone": "910 000 000",
+    "email": "caiovc34@gmail.com",
+    "phone": "917 233 221",
     "website": "http://www.timbakerdev.com",
     "resumedownload": "http://timbakerdev.com",
     "social": [
@@ -18,23 +18,13 @@
         "className": "fa fa-facebook"
       },
       {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
-        "name": "instagram",
-        "url": "http://instagram.com/cvc34",
-        "className": "fa fa-instagram"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/caio-cristo",
         "className": "fa fa-linkedin"
       },
       {
         "name": "github",
-        "url": "http://github.com/tbakerx",
+        "url": "http://github.com/caio1534",
         "className": "fa fa-github"
       }
     ]
@@ -44,21 +34,21 @@
     "education": [
       {
         "school": "Universidade de Aveiro",
-        "degree": "Novas Tecnologias da Comunicação",
-        "graduated": "Soon",
-        "description": "O curso que frequento deu-me a oportunidade de explorar diversas áreas como programação, web design, fotografia, vídeo, comunicação... e mais umas quantas coisas. Aqui aprendi também o valor de trabalhar em grupo e de ter uma mente aberta a novas soluções para novos problemas."
+        "degree": "Licenciatura em Novas Tecnologias da Comunicação",
+        "graduated": "Julho 2020",
+        "description": "O curso que frequentei deu-me a oportunidade de explorar diversas áreas como programação, web design, fotografia, vídeo, comunicação... e mais umas quantas coisas. Aqui aprendi também o valor de trabalhar em grupo e de ter uma mente aberta a novas soluções para novos problemas."
       },
       {
         "school": "Escola Secundária da Mealhada",
         "degree": "Curso Profissional Técnico de Multimédia",
         "graduated": "Julho 2017",
-        "description": "Talvez sem me dar totalmente conta inicialmente, foi aqui que o meu interesse pela área da multimédia foi realmente despertado, o que se tornou um verdadeiro gosto mais à frente. Mais importante que as competências técnicas aprendidas, foi esta ideia que o meu futuro poderia estar algures à frente de um monitor de computador no futuro."
+        "description": "Talvez sem me dar totalmente conta inicialmente, foi aqui que o meu interesse pela área da multimédia (e internet no geral) foi realmente despertado, o que se tornou um verdadeiro gosto mais à frente. Mais importante que as competências técnicas aprendidas, foi esta ideia que o meu futuro poderia um dia passar por estar algures à frente de um monitor de computador."
       }
     ],
     "skills": [
       {
         "name": "ReactJs",
-        "level": "65%"
+        "level": "71%"
       },
       {
         "name": "Firebase",
@@ -70,7 +60,7 @@
       },
       {
         "name": "CSS",
-        "level": "70%"
+        "level": "69%"
       },
       {
         "name": "Bootstrap",
@@ -78,11 +68,11 @@
       },
       {
         "name": "Photoshop",
-        "level": "65%"
+        "level": "58%"
       },
       {
         "name": "Illustrator",
-        "level": "73%"
+        "level": "62%"
       }
     ]
   },
