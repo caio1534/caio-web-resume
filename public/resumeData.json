@@ -9,8 +9,7 @@
     "contactmessage": "Qualquer dúvida ou outro assunto não hesite em contactar!",
     "email": "caiovc34@gmail.com",
     "phone": "917 233 221",
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "../../Public/CV.pdf",
     "social": [
       {
         "name": "facebook",
@@ -36,7 +35,7 @@
         "school": "Universidade de Aveiro",
         "degree": "Licenciatura em Novas Tecnologias da Comunicação",
         "graduated": "Julho 2020",
-        "description": "O curso que frequentei deu-me a oportunidade de explorar diversas áreas como programação, web design, fotografia, vídeo, comunicação... e mais umas quantas coisas. Aqui aprendi também o valor de trabalhar em grupo e de ter uma mente aberta a novas soluções para novos problemas."
+        "description": "O curso que frequentei deu-me a oportunidade de explorar diversas áreas como programação, web design, fotografia, vídeo, comunicação... e mais umas quantas coisas. Aqui surgiu a minha vontade em desenvolver websites e desenhar interfaces para a web, além de ter aprendido ainda o valor de trabalhar em grupo e de ter uma mente aberta a novas soluções para novos problemas."
       },
       {
         "school": "Escola Secundária da Mealhada",
@@ -80,39 +79,40 @@
     "projects": [
       {
         "title": "A Voz das Cartas",
-        "category": "Jogo de aventura",
+        "category": "Jogo de aventura desenvolvido em parceria com docentes da Escola Superior de Saúde da UA",
         "image": "lab3.png",
-        "url": "lab3.png"
+        "technology": "js"
       },
       {
         "title": "ConventRoutine",
         "category": "Jogo desenvolvido em parceria com o Museu de Aveiro / Santa Joana",
         "image": "lab4.png",
-        "url": "http://www.timbakerdev.com"
+        "technology": "php"
       },
       {
         "title": "Premier League - Fans",
-        "category": "Website informativo acerca da liga de futebol inglesa",
+        "category": "Website informativo acerca da principal liga de futebol inglesa",
         "image": "lab5.png",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "technology": "react"
       },
       {
         "title": "Adventour",
-        "category": "Narrativa interativa de viagem para o público universitário sénior",
+        "category": "Jogo com narrativa interativa de viagem para o público universitário sénior",
         "image": "projf.png",
-        "url": "http://www.smirkspace.com"
+        "url": "https://adventour-17c81.web.app",
+        "technology": "react"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Trabalhar com o Caio é muito bom, pode não parecer à primeira vista, mas ele sabe distinguir quando é para trabalhar a sério e quando se pode brincar. É uma pessoa que está sempre pronta a ajudar e sabe como guiar e organizar um trabalho.",
-        "user": "Daniela Pereira, NTC 2017/20"
+        "text": "Trabalhar com o Caio é muito bom, pode não parecer à primeira vista mas ele sabe distinguir quando é para trabalhar a sério e quando se pode brincar. É uma pessoa que está sempre pronta a ajudar e sabe como guiar e organizar um trabalho.",
+        "user": "Daniela Pereira, ex-colega NTC 2017/20"
       },
       {
-        "text": "Ao londo da licenciatura tive a oportunidade de realizar vários projetos onde o Caio participou e sem dúvida posso dizer que há dedicação, trabalho e vontade de querer sempre melhorar aquilo que está a fazer, mesmo que o tempo já seja muito, não sendo afetado pela pressão - prefere esforçar-se para ter um bom resultado, refazendo as vezes que forem precisas, do que entregar algo que poderia estar melhor. Acima de tudo, tem uma mente aberta, ouvindo e refletindo sobre as opiniões que estão a ser dadas, trabalhando como um todo. Foco, Determinação e Coragem são as palavras que melhor definem o Caio.",
-        "user": "Bruno Miguel, NTC 2017/20"
+        "text": "Ao longo da licenciatura tive a oportunidade de realizar vários projetos onde o Caio participou e sem dúvida posso dizer que há dedicação, trabalho e vontade de querer sempre melhorar aquilo que está a fazer, mesmo que o tempo seja reduzido, não sendo afetado pela pressão - prefere esforçar-se para ter um bom resultado, refazendo as vezes que forem precisas, do que entregar algo que poderia estar melhor. Acima de tudo, tem uma mente aberta, ouvindo e refletindo sobre as opiniões que estão a ser dadas, trabalhando como um todo.",
+        "user": "Bruno Lopes, ex-colega NTC 2017/20"
       }
     ]
   }

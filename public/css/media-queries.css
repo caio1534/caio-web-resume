@@ -112,7 +112,7 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #CC5200;
+		background-color: #4A4A4A;
 		position: relative;
       border: none;
       float: right;
@@ -296,6 +296,7 @@
    #contact .header-col { padding-top: 0; }
    #contact .header-col h1:before { content: none;	}
    #contact .section-head p.lead { text-align: center;}
+   #contact .section-head div.widget { text-align: center;}
 
    /* form */
    #contact label {
@@ -327,7 +328,7 @@
    footer .social-links li { margin-left: 18px; }
 
    /* Go To Top Button */
-   #go-top { margin-left: -22px; }
+   #go-top { margin-left: -28px; }
    #go-top a {
    	width: 54px;
    	height: 54px;
@@ -360,8 +361,18 @@
    }
   
    /* header social links */
-   header .social { font-size: 20px;}
+   header .social { font-size: 20px; }
    header .social li { margin: 0 6px; }
+
+   /* Resume Section
+   /* ----------------------------------------------------------------- */
+   .education, .work {
+      padding-bottom: 12px;
+   }
+
+   /* Portfolio Section
+   /* ----------------------------------------------------------------- */
+   .portfolio-title {  max-width: 85%; margin: auto;}
 
    /* footer
    ------------------------------------------------------------------------ */
