@@ -11,7 +11,7 @@ class About extends Component {
          var email = this.props.data.email;
          var resumeDownload = this.props.data.resumedownload;
          var networks = this.props.data.social.map(function (network) {
-            return <span key={network.name}><a href={network.url} target="_blank"><i className={network.className}></i></a></span>
+            return <span key={network.name}><a href={network.url} target="_blank" rel="noopener noreferrer"><i className={network.className}></i></a></span>
          })
       }
 
