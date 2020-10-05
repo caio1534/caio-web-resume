@@ -2,14 +2,14 @@
   "main": {
     "name": "Caio Cristo",
     "occupation": "Frontend Developer",
-    "description": "Pronto para ajuda-lo no seu próximo projeto! Veja mais sobre mim em baixo",
+    "description": "pronto para ajuda-lo no seu próximo projeto! Veja mais sobre mim em baixo",
     "image": "profilepic.jpg",
     "bio": "O meu nome é Caio Cristo e sou um jovem proveniente da terra do leitão (Mealhada!!), recém licenciado pela Universidade de Aveiro, além de um amante de desporto, geografia e factos interessantes (que apenas eu acho interessantes 😅).",
     "bio2": "Desde o secundário que o meu interesse se centra na web e na criação de novas soluções e conteúdos para este meio de comunicação. Meio este que, não só faz parte da nossa vida quotidiana, como (quase que) é a nossa vida, em muitos casos. Como tal, pretendo lançar uma carreira como Frontend Developer (nunca pensei que fosse dar para isto 😎), sempre com o objetivo de aprender mais e melhorar o meu “craft”.",
     "contactmessage": "Qualquer dúvida ou outro assunto não hesite em falar comigo diretamente!",
     "email": "caiovc34@gmail.com",
     "phone": "917 233 221",
-    "resumedownload": "../../Public/CV.pdf",
+    "resumedownload": "../../public/CV.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -24,7 +24,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Soft skills incluem capacidade de trabalhar em grupo, decision making, flexibilidade/capacidade de ouvir, criatividade, otimismo, paciência e muito mais!",
+    "softskills": "Soft skills incluem capacidade de trabalhar em grupo, flexibilidade/capacidade de ouvir, decision making, criatividade, otimismo, paciência e muito mais!",
     "education": [
       {
         "school": "Universidade de Aveiro",
@@ -36,17 +36,17 @@
         "school": "Escola Secundária da Mealhada",
         "degree": "Curso Profissional Técnico de Multimédia",
         "graduated": "Julho 2017",
-        "description": "Talvez sem me dar totalmente conta inicialmente, foi aqui que o meu interesse pela área da multimédia (e internet no geral) foi realmente despertado, o que se tornou um verdadeiro gosto mais à frente. Mais importante que as competências técnicas aprendidas, foi esta ideia que o meu futuro poderia um dia passar por estar algures à frente de um monitor de computador."
+        "description": "Talvez sem me dar totalmente conta inicialmente, foi aqui que o meu interesse pela área da multimédia (e internet no geral) foi realmente despertado, o que se tornou um verdadeiro gosto mais à frente. Mais importante que as competências técnicas aprendidas, foi esta ideia que o meu futuro poderia um dia passar por estar algures à frente de um monitor de computador a criar algo."
       }
     ],
     "skills": [
       {
         "name": "React",
-        "level": "71%"
+        "level": "75%"
       },
       {
         "name": "Firebase",
-        "level": "63%"
+        "level": "64%"
       },
       {
         "name": "HTML5",
@@ -54,11 +54,11 @@
       },
       {
         "name": "CSS",
-        "level": "69%"
+        "level": "73%"
       },
       {
         "name": "Bootstrap",
-        "level": "78%"
+        "level": "82%"
       },
       {
         "name": "Photoshop",

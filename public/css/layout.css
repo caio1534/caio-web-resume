@@ -57,11 +57,21 @@ header .banner {
 }
 
 header .banner-text { width: 70%; }
-header .banner-text h1 {
+header .banner-text .nameMobile{
    font: 90px/1.1em 'roboto-mono-regular', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto;
+   margin-right: -12px;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   display: none;
+}
+header .banner-text .nameDesktop {
+   font: 90px/1.1em 'roboto-mono-regular', sans-serif;
+   color: #fff;
+   letter-spacing: -2px;
+   margin: 0 auto;
+   margin-right: -12px;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
@@ -211,8 +221,8 @@ ul#nav li.current a { color: #11ABB0; }
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about .columns .download p  { color: #fff; }
+#about .columns .download p:focus { color: #11ABB0; }
 
 #about h2 {
    font: 33px/40px 'roboto-mono-regular', sans-serif;
@@ -245,6 +255,7 @@ ul#nav li.current a { color: #11ABB0; }
    font: 18px/24px 'roboto-mono-regular', sans-serif;
    margin-top: 6px;
    background: #444;
+   color: #fff;
 }
 #about .download .button:hover {
    background: #fff;
@@ -697,7 +708,7 @@ call-to-action .button {
 
 #testimonials {
    background: #1F1F1F  no-repeat center center;
-   background-color: rgba(36, 36, 36, 0.7) !important;
+   background-color: rgba(36, 36, 36, 0.85) !important;
    background-image: url(../images/testimonials3-bg.jpg);
    background-blend-mode: color;
    background-size: cover !important;

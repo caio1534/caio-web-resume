@@ -1,6 +1,24 @@
 import React, { Component } from 'react';
+import axios from 'axios'
 
 class About extends Component {
+
+   downloadFile() {
+
+      axios({
+         url: 'https://s3.eu-west-3.amazonaws.com/caiocristo.com/CV.pdf',
+         method: 'GET',
+         responseType: 'blob', // important
+      }).then((response) => {
+         const url = window.URL.createObjectURL(new Blob([response.data]));
+         const link = document.createElement('a');
+         link.href = url;
+         link.setAttribute('download', 'CV.pdf');
+         document.body.appendChild(link);
+         link.click();
+      });
+   }
+
    render() {
 
       if (this.props.data) {
@@ -9,7 +27,6 @@ class About extends Component {
          var bio2 = this.props.data.bio2;
          var phone = this.props.data.phone;
          var email = this.props.data.email;
-         var resumeDownload = this.props.data.resumedownload;
          var networks = this.props.data.social.map(function (network) {
             return <span key={network.name}><a href={network.url} target="_blank" rel="noopener noreferrer"><i className={network.className}></i></a></span>
          })
@@ -36,8 +53,8 @@ class About extends Component {
                         </p>
                      </div>
                      <div className="columns download">
-                        <p>
-                           <a href={resumeDownload} download className="button"><i className="fa fa-download"></i>Download Curriculum Vitae</a>
+                        <p onClick={this.downloadFile} className="button">
+                           <i className="fa fa-download"></i>Download Curriculum Vitae
                         </p>
                      </div>
                   </div>

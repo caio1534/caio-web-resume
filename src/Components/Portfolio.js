@@ -14,7 +14,7 @@ class Portfolio extends Component {
               <div className="overlay">
                 <div className="portfolio-item-meta">
                   <h5>{projects.title}</h5>
-                  <span><FontAwesomeIcon icon={['fab', projects.technology]} size="md" /></span>
+                  <span><FontAwesomeIcon icon={['fab', projects.technology]} size="1x" /></span>
                   <p>{projects.category}</p>
                 </div>
               </div>

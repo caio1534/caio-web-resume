@@ -31,8 +31,9 @@ class Header extends Component {
 
             <div className="row banner">
                <div className="middle banner-text">
-                  <h1>{name}.</h1>
-                  <h3>Um <span>{occupation}</span> da <span>Mealhada, Aveiro</span>. {description}.</h3>
+                  <h1 className='nameDesktop'>{name}.</h1>
+                  <h1 className='nameMobile'>{name}</h1>
+                  <h3>Um <span>{occupation}</span> da <span>Mealhada, Aveiro</span> {description}.</h3>
                </div>
             </div>
 

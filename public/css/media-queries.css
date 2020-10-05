@@ -59,7 +59,7 @@
 
    /* Resume Section
    ------------------------------------------------------------------- */
-   #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #resume h1 { font: 20px/22px 'opensans-bold', sans-serif; }
    #resume .main-col { padding-right: 5%; }   
 
    /* Testimonials Section
@@ -191,7 +191,16 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   header .banner-text h1 { font: 68px/1.1em 'roboto-mono-regular', sans-serif; }
+
+   header .banner-text .nameDesktop { 
+      display: none;
+   }
+   header .banner-text .nameMobile { 
+      display: block;
+      font: 68px/1em 'roboto-mono-regular', sans-serif;
+      padding-bottom: 17px;
+      border-bottom: 5px solid #11ABB0;
+   }
    header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
       width: 85%;
@@ -215,7 +224,13 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about .profile-pic { 
+      display: block;
+      width: 60%;
+      height: 60%;
+      margin: 0 auto;
+      margin-bottom: 22px;
+   }
    #about .download .button {
       width: 100%;
       text-align: center;
@@ -262,7 +277,7 @@
    ----------------------------------------------------------------------- */
    #testimonials .text-container { text-align: center; }
    #testimonials h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
+      font: 20px/22px 'opensans-bold', sans-serif;
       text-align: center;
       margin-bottom: 30px;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
@@ -287,7 +302,7 @@
    #contact { padding-bottom: 66px; }
    #contact .section-head { margin-bottom: 12px; }
    #contact .section-head h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;            
+      font: 20px/22px 'opensans-bold', sans-serif;            
       text-align: center;   
       margin-bottom: 30px;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
@@ -297,6 +312,7 @@
    #contact .header-col h1:before { content: none;	}
    #contact .section-head p.lead { text-align: center;}
    #contact .section-head div.widget { text-align: center;}
+   #contact .section-head div.widget h4 { display: none;}
 
    /* form */
    #contact label {
@@ -355,8 +371,8 @@
    /* header styles
    -------------------------------------------------------------------- */
    header .banner { padding-top: 24px; }
-   header .banner-text h1 {
-      font: 62px/1.1em 'roboto-mono-regular', sans-serif;;      
+   header .banner-text .nameMobile {
+      font: 62px/1em 'roboto-mono-regular', sans-serif;;      
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
@@ -392,9 +408,23 @@
 
 }
 
+@media only screen and (max-width: 402px) {
 
+   header .banner-text h1 {
+      font: 56px/1em 'roboto-mono-regular', sans-serif;;      
+      margin: 0 auto 24px auto;
+   }
 
+}
 
+@media only screen and (max-width: 370px) {
+
+   header .banner-text h1 {
+      font: 50px/1em 'roboto-mono-regular', sans-serif;;      
+      margin: 0 auto 24px auto;
+   }
+
+}
 
 
 
